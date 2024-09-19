@@ -11,4 +11,9 @@ public class IndexController {
         return "Hello World";
     }
 
+    @GetMapping("/list")
+    public String list() {
+        return "list";
+    }
+
 }
